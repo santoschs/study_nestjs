@@ -1,0 +1,10 @@
+npm run start:dev
+npm i @nestjs/mapped-types - para o update utilizar o mapeamento do create
+npm i class-validator class-transformer - ferramenta para validação dos tipos de dados
+nest g class course/dto/update-course.dto --no-spec - Criação de DTO update em um endereço específico e sem arquivo de teste
+nest g module course - criação de módulo na pasta course
+nest g service course - criação de serviço na pasta course
+nest g controller course - criação de controller na pasta course
+npm i class-validator class-transformer - classes para validação de dados recebidos pelo App
+sudo docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres - criar container postgres com o banco postgres e senha docker
+docker start postgres - iniciar docker para o projeto
