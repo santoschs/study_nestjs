@@ -1,2 +1,2 @@
 # study_nestjs
-Studying NestJS 
+Studying NestJS by Udemy Course
